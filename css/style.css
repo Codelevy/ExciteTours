@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+/* reset */
+
+html,
+body,
+h1,
+p,
+a,
+div,
+section {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+
+/* Basic */
+
+body {
+    /* Master font for entire page */
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+.wrapper {
+    width: 60%;
+    min-width: 50%;
+    margin: 20px auto;
+    padding-top: 50px;
+}
+
+
+/* Navigation */
+
+nav {
+    clear: both;
+    color: white;
+    height: 50px;
+    background-color: black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px 0 15px 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: auto 20px auto 0;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#logo {
+    
+    font-family: 'Playfair Display', serif;
+    float: left;
+    padding-left: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+body {
+    /* Location of the image */
+    background-image: url(../img/naturetrail.jpg);
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: #464646;
+}
+
+
+/* Layout */
+
+#countdownTimer,
+#subscribeForm,
+.socialArea {
+    text-align: center;
+}
+
+#countdownTimer {
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+#message,
+#subscribeForm {
+    text-align: center;
+    display: block;
+    padding-right: 40px;
+    
+}
+
+#message p {
+    padding-bottom: 30px;
+}
+
+#info {
+    font-size: 32px;
+}
+
+/*Subscription*/
+
+#subscribeField {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    min-width:  50%;
+}
+
+#subscribeForm {
+    margin: 0 auto;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: darkgrey;
+   
+}
+
+#submitBtn {
+    font-size: 14px;
+     margin: 0 auto;
+    margin-bottom: 20px;
+    min-width: 20%;
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+h2.content,
+form.content{
+    margin: 0 auto;
+}
+
+.subForm{
+    margin: 0 auto;
+}
+/*Message Area*/
+
+
+
+/*Social Area*/
+
+.socialArea {
+    display: block;
+    clear: both;
+    padding: 0;
+}
+
+.socialArea li {
+    display: inline-block;
+    padding-right: 10px;
+    width: 20px;
+}
+
+.socialArea li a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+
+/*Footer*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 12%;
+    width: auto;
+    font-size: 12px;
+    color: azure
+
+}
